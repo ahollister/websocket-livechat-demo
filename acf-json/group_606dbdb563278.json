@@ -1,0 +1,126 @@
+{
+    "key": "group_606dbdb563278",
+    "title": "Page Builder",
+    "fields": [
+        {
+            "key": "field_606dbdbbff0f8",
+            "label": "Layout",
+            "name": "layout",
+            "type": "flexible_content",
+            "instructions": "Select components to add to the page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_606dbdc24a5a4": {
+                    "key": "layout_606dbdc24a5a4",
+                    "name": "example",
+                    "label": "Example component",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_606dbdd2ff0f9",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "The title for this component",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Example title",
+                            "placeholder": "Example title",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_606dbe15ff0fa",
+                            "label": "Call to action",
+                            "name": "call_to_action",
+                            "type": "group",
+                            "instructions": "Add a call too action link",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_606dbe76ff0fc",
+                                    "label": "Text",
+                                    "name": "text",
+                                    "type": "text",
+                                    "instructions": "The text for the call to action link",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Call To Action",
+                                    "placeholder": "Call To Action",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_606dbe51ff0fb",
+                                    "label": "URL",
+                                    "name": "url",
+                                    "type": "url",
+                                    "instructions": "The url for the call to action link",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "https:\/\/www.example.com",
+                                    "placeholder": "https:\/\/www.example.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Component",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-page-builder.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1617805088
+}

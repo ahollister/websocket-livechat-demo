@@ -1,0 +1,6 @@
+browserSyncConfig.json
+dist/
+vendor/
+node_modules/
+stylelint.config.js
+**/*.swp

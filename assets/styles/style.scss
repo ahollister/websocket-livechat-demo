@@ -1,0 +1,20 @@
+/*
+Theme Name: WP Tailwind Twig
+Theme URI: https://adamhollister.com
+Author: Adam Hollister
+Author URI: https://adamhollister.com
+Description: A pared down starter theme for use with ACF flexible content components and Twig templates, Tailwind included. Meant to be built on and hacked to bits, not child-themed.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-tailwind-twig
+*/
+
+// Variables
+@import "variables";
+// Tailwind
+@import "tailwind";
+// Global
+@import "global/*";
+// Component specific styles
+@import "components/*";
