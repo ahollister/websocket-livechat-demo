@@ -1,0 +1,22 @@
+<section class="component component--chat js-component--chat" data-server={{ server }}>
+	<h2>{{ title }}</h2>
+	<form action="#" class="chat-form js-chat-form">
+		<label for="chat-message">{{ message_label }}</label>
+		<textarea
+			class="chat-message js-chat-message"
+			id="chat-message"
+			name="chat-message"
+			rows="4"
+			cols="50"
+			disabled
+		></textarea>
+		<input
+			class="chat-submit js-chat-submit"
+			type="submit"
+			value="send"
+			disabled
+		/>
+	</form>
+	<ul class="chat-messagelist js-chat-messagelist">
+	</ul>
+</section>

@@ -96,6 +96,73 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_606defcbb2b48": {
+                    "key": "layout_606defcbb2b48",
+                    "name": "chat",
+                    "label": "Chat",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_606dff13b2b49",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Chat component title",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_606e009e3c33a",
+                            "label": "Message label",
+                            "name": "message_label",
+                            "type": "text",
+                            "instructions": "A label for the chat message form field",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_606dff29b2b4a",
+                            "label": "Websocket server address",
+                            "name": "websocket_server_address",
+                            "type": "text",
+                            "instructions": "Add the websocket server address for the chat functionality (do not include the protocol ie. wss:\/\/)",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Component",
@@ -122,5 +189,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1617805088
+    "modified": 1617821895
 }
