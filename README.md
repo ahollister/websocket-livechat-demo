@@ -2,7 +2,7 @@
 
 This repo contains a basic WP theme - [WP Tailwind Twig](https://github.com/ahollister/wp-tailwind-twig).
 
-Within that theme is a new component, called Chat. This component contains a form and list, and if provided with the address of a websocket that broadcasts anything it receives too all connected clients (such as this [Simple socket](https://github.com/ahollister/simple-socket)), it allows for live chat messaging between any two people using the feature at the same time.
+Within that theme is a new component, called Chat. This component contains a form and list, and if provided with the address of a websocket that broadcasts anything it receives to all connected clients (such as this [Simple socket](https://github.com/ahollister/simple-socket)), it allows for live chat messaging between any two people using the feature at the same time.
 
 When a message is sent using the form, it is sent to the websocket which then broadcasts that message out to all connected clients, which will then receive it and write the new message to the DOM as part of a list, each receiving browser will then store the list of messages in sessionStorage to maintain the data across page reloads.
 
